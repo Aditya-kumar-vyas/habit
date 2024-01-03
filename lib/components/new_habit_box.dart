@@ -28,19 +28,19 @@ class Enternewhabitbox extends StatelessWidget {
       actions: [
         MaterialButton(
           onPressed: onsave,
-          child: Text(
+          color: Colors.black,
+          child: const Text(
             "Save",
             style: TextStyle(color: Colors.white),
           ),
-          color: Colors.black,
         ),
         MaterialButton(
           onPressed: onCancel,
-          child: Text(
+          color: Colors.black,
+          child: const Text(
             "Save",
             style: TextStyle(color: Colors.white),
           ),
-          color: Colors.black,
         ),
       ],
     );
